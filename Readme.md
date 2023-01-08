@@ -16,68 +16,68 @@ In addition, it has been creted a webapp using streamlit that allows a user to v
 The user can select the gas stations of the different providers (Repsol, Cepsa, BP) that they want to view on the map and can also choose to see electric vehicle chargers and gas stations that offer liquefied petroleum gas (GLP). In addition, the user can view a distribution of gasoline prices at the selected gas stations in a seaborn chart.
 
 # Libraries used in Gasprice-extract-load.ipynb
-import requests
-import datetime
-import json
-import numpy as np
-import pandas as pd
-from pprint import pprint
-from bs4 import BeautifulSoup
-from time import sleep
+import requests\n
+import datetime\n
+import json\n
+import numpy as np\n
+import pandas as pd\n
+from pprint import pprint\n
+from bs4 import BeautifulSoup\n
+from time import sleep\n
 
 # Libraries used in Gasprice-extract-load.ipynb
-import requests
-import datetime
-import json
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import folium
-import plotly.express as px
-from pprint import pprint
-import googlemaps
-from time import sleep
+import requests\n
+import datetime\n
+import json\n
+import numpy as np\n
+import pandas as pd\n
+import seaborn as sns\n
+import matplotlib.pyplot as plt\n
+import folium\n
+import plotly.express as px\n
+from pprint import pprint\n
+import googlemaps\n
+from time import sleep\n
 
 # Libraries used in streamlit_app.py
-import streamlit as st
-import pandas as pd
-import folium
-import requests
-import json
-import datetime
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.express as px
-import googlemaps
-from time import sleep
-from streamlit_folium import st_folium
-import funciones
+import streamlit as st\n
+import pandas as pd\n
+import folium\n
+import requests\n
+import json\n
+import datetime\n
+import numpy as np\n
+import seaborn as sns\n
+import matplotlib.pyplot as plt\n
+import plotly.express as px\n
+import googlemaps\n
+from time import sleep\n
+from streamlit_folium import st_folium\n
+import funciones\n
 
 # Libraries used in funciones.py
-import pandas as pd
-import folium
-import numpy as np
-import googlemaps
-from time import sleep
+import pandas as pd\n
+import folium\n
+import numpy as np\n
+import googlemaps\n
+from time import sleep\n
 
 # Project API-keys
 
 ### The API-Keys used are private, so if you want to interact with a database to test the software, you need to create a creds.py file yourself with the following code:
 
-API_KEY = #Your airtable api_key
-api_key = #Your Google Maps API_KEY
+API_KEY = #Your airtable api_key\n
+api_key = #Your Google Maps API_KEY\n
 
 # Tecnologies
 
-folium==0.13.0
-googlemaps==4.7.3
-matplotlib==3.5.1
-numpy==1.21.5
-pandas==1.4.2
-plotly==5.6.0
-requests==2.27.1
-seaborn==0.11.2
-streamlit==1.16.0
-streamlit_folium==0.7.0
+folium==0.13.0\n
+googlemaps==4.7.3\n
+matplotlib==3.5.1\n
+numpy==1.21.5\n
+pandas==1.4.2\n
+plotly==5.6.0\n
+requests==2.27.1\n
+seaborn==0.11.2\n
+streamlit==1.16.0\n
+streamlit_folium==0.7.0\n
