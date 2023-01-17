@@ -26,7 +26,7 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 from time import sleep
 ```
-# Libraries used in Gasprice-extract-load.ipynb
+# Libraries used in Gasprice-download-views.ipynb
 ```python
 import requests
 import datetime
